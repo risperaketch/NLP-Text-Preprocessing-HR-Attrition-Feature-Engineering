@@ -46,6 +46,7 @@ Employee turnover costs organizations 50–200% of an employee's annual salary i
 | Majority missing columns | None found |
 
 ---
+<img width="980" height="384" alt="image" src="https://github.com/user-attachments/assets/abcc18a6-1c12-4510-9581-b0248b6e877f" />
 
 ## Part 1 — NLP Pipeline: 5 Steps
 
@@ -102,6 +103,8 @@ TF-IDF converts each article into a vector of word importance scores. Words dist
 | First feature | `aa` |
 | Last feature | `zyxel` |
 | Label column | Appended as final column |
+
+<img width="984" height="384" alt="image" src="https://github.com/user-attachments/assets/26101ab1-aca7-44c1-b397-629908856276" />
 
 ---
 
