@@ -122,6 +122,8 @@ categorical_var = [col for col in df.select_dtypes(include=['object']).columns i
 | Categorical | **8** | BusinessTravel, Department, EducationField, Gender, JobRole |
 | Target (excluded) | 1 | Attrition (processed separately in Q10) |
 
+<img width="1583" height="308" alt="image" src="https://github.com/user-attachments/assets/e9956d6e-6e37-442e-aa11-f4502682ae2d" />
+
 ---
 
 ### Step 7 — Missing Value Imputation
@@ -154,6 +156,8 @@ Converts continuous DailyRate (range: \$102–\$1,499) into equal-width tiers th
 | Medium | 502 |
 | High | 484 |
 
+<img width="1183" height="384" alt="image" src="https://github.com/user-attachments/assets/bdb0c170-3b72-413f-bbf7-9a4e723b882d" />
+
 ---
 
 ### Step 9 — One-Hot Encoding (`pd.get_dummies`)
@@ -176,6 +180,8 @@ df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0})
 | 1 (Left) | **237** | **16.1%** |
 
 <img width="1384" height="409" alt="image" src="https://github.com/user-attachments/assets/c4a43422-63da-419f-80fb-f61ea21810f9" />
+
+<img width="997" height="384" alt="image" src="https://github.com/user-attachments/assets/3f08af7a-a1e8-4041-b228-c3c126abfbfc" />
 
 
 The 237 employees in the positive class (Attrition = 1) represent a class imbalance that will need to be addressed in downstream modeling (SMOTE, class weights, or threshold tuning).
