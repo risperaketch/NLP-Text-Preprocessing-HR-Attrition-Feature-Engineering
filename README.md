@@ -124,6 +124,9 @@ categorical_var = [col for col in df.select_dtypes(include=['object']).columns i
 
 <img width="1583" height="308" alt="image" src="https://github.com/user-attachments/assets/e9956d6e-6e37-442e-aa11-f4502682ae2d" />
 
+<img width="1384" height="409" alt="image" src="https://github.com/user-attachments/assets/909cb162-efc6-4ccc-85aa-1ed7f5240854" />
+
+
 ---
 
 ### Step 7 — Missing Value Imputation
@@ -179,7 +182,6 @@ df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0})
 | 0 (Stayed) | 1,233 | 83.9% |
 | 1 (Left) | **237** | **16.1%** |
 
-<img width="1384" height="409" alt="image" src="https://github.com/user-attachments/assets/c4a43422-63da-419f-80fb-f61ea21810f9" />
 
 <img width="997" height="384" alt="image" src="https://github.com/user-attachments/assets/3f08af7a-a1e8-4041-b228-c3c126abfbfc" />
 
