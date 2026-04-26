@@ -175,6 +175,9 @@ df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0})
 | 0 (Stayed) | 1,233 | 83.9% |
 | 1 (Left) | **237** | **16.1%** |
 
+<img width="1384" height="409" alt="image" src="https://github.com/user-attachments/assets/c4a43422-63da-419f-80fb-f61ea21810f9" />
+
+
 The 237 employees in the positive class (Attrition = 1) represent a class imbalance that will need to be addressed in downstream modeling (SMOTE, class weights, or threshold tuning).
 
 ---
