@@ -124,7 +124,6 @@ categorical_var = [col for col in df.select_dtypes(include=['object']).columns i
 
 <img width="1583" height="308" alt="image" src="https://github.com/user-attachments/assets/e9956d6e-6e37-442e-aa11-f4502682ae2d" />
 
-<img width="1384" height="409" alt="image" src="https://github.com/user-attachments/assets/909cb162-efc6-4ccc-85aa-1ed7f5240854" />
 
 
 ---
@@ -169,6 +168,8 @@ cat_vars_to_encode = [col for col in categorical_var if col != 'Attrition']
 df = pd.get_dummies(df, columns=cat_vars_to_encode, drop_first=False)
 ```
 Converts 8 categorical variables into binary dummy columns. `Attrition` is explicitly excluded — it is handled separately in Q10. The dataset expands from 32 columns to **54 columns** after encoding.
+
+<img width="1384" height="409" alt="image" src="https://github.com/user-attachments/assets/909cb162-efc6-4ccc-85aa-1ed7f5240854" />
 
 ---
 
