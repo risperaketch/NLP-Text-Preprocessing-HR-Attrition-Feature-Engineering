@@ -271,5 +271,5 @@ jupyter notebook OkothAketch_A5.ipynb
 ## Author
 
 **Aketch Adhiambo Okoth**  
-MS Business Analytics — Montclair State University (GPA 3.8)  
+  
 [LinkedIn](https://linkedin.com/in/your-profile) · [Portfolio](https://your-portfolio-url.com)
